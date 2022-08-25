@@ -1,0 +1,40 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+
+#local{
+    width: 100%;
+    background-color:darkcyan;
+    padding: 15px 0;
+    margin: 0;
+
+    font-size: 1.5rem;
+    color: cyan;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td{
+    border: 1px solid steelblue;
+    padding: 8px;
+
+}
+
+#cities tr:nth-child(even){
+    background-color: lightskyblue;
+}
+
+.col1{
+    width: 10%;
+}
+
+.col2{
+    width: 45%;
+}
